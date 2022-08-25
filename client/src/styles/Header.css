@@ -1,0 +1,69 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    border: none;
+    box-shadow : 2px 3px 10px 1px black ;
+    background-color: white;
+    color: goldenrod;
+    border-radius: 8px;
+
+}
+
+.logo{
+    width: 50%;
+    font-size: 24px;
+    font-weight: 600;
+    animation: fade-left 1.5s;
+
+}
+
+@keyframes fade-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.header ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.header ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    animation: fade-right 1s;
+    cursor: pointer;
+   
+}
+
+.header ul li:hover{
+    transform: translateY(-3px);
+    transition: 0.2s ease-in;
+}
+
+.header ul li:active{
+    transform: translateY(0px);
+    transition: 0.2s ease-out;
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
