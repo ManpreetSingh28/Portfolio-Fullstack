@@ -1,9 +1,12 @@
 .App {
   text-align: center;
-  padding: 5px;
-  background-color: lavender;
-  height: 95vh;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  font-family:"Roboto","Noto Sans JP","sans-serif";
+  -webkit-font-smoothing:antialiased;
 }
+
 
 
 

@@ -1,11 +1,12 @@
 import React from 'react'
 import '../styles/Header.css'
+import Logo from '../assets/attachment.svg'
 
 function Header() {
   return (
     <div className='header'>
         <div className='logo'>
-            Manpreet Singh
+            <img alt="img" style={{height:"50px",width:"50px"}} src={Logo} />
         </div>
      <ul>
         <li>
@@ -17,10 +18,9 @@ function Header() {
         <li>
             Projects
         </li>
-        <li>
-            Connect with me
-        </li>
      </ul>
+     <button className='btn-hover'>Connect with me</button>
+
     </div>
    
   )
