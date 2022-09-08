@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Body.css'
-import Video from '../assets/bvideo.mp4'
+import Video from '../assets/videoplayback.mp4'
 
 function Body() {
   return (

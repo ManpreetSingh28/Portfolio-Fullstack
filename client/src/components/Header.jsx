@@ -1,13 +1,14 @@
 import React from 'react'
 import '../styles/Header.css'
-import Logo from '../assets/1.jpg'
+import Logo from '../assets/developer.jpg'
 
 function Header() {
   return (
     <div className="header">
       <div className="logo">
-        <img alt="img" style={{ height: '50px', width: '50px' }} src={Logo} />
+        <img alt="img" style={{ height: '35px', width: '35px', float: 'left', marginLeft: '50px' }} src={Logo} />
       </div>
+      <h2>PORTFOLIO</h2>
       <ul>
         <li>Home</li>
         <li>About</li>
